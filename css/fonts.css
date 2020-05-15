@@ -1,0 +1,87 @@
+
+.header__content__part1__part2 h1,.header__content__part1__part3 h3,.header__content__part2__figcaption a,
+.header__content__part2__button button,#close,.madal__tel__button__tel__input,.modal_tel,#phone,
+.header__content__part2__part2__text h4,.submit,.section1__text1,.section2__text1,.section1__box1 h3,.section1__box2 h3,.section1__box3 h3,.section1__box4 h3,.section1__box5 h3,
+.section1__box6 h3,.section1__box7 h3,.section1__box8 h3,.section1__box9 h3,
+.section1__box10 h3,.section1__box11 h3,.section2__text1,.footer__text1,
+.section2__content__text p,.section3__text p,.section4__text h3,.section4__img__text,.footer__img__text a,.section4__img__text
+{
+	text-decoration: none;  
+	font-weight: normal;
+	font-family: 'Conv_Roboto-Medium';
+	font-style: normal;
+}
+
+.header__content__part1,.header__content__part2__part1,.section1__box__contetn,.d-flex,
+.section3__content,.section4__icon,.header__contnet__part2,.footer__content,.footer__img{
+	display: flex;
+}
+
+.header__content,.header__content__part1__part2,.header__content__part1__part2 h1,.header__content__part1__part3
+,.header__content__part1__part3,.header__content__figure1,.box1__img,.box2__img,.box3__img,.box4__img,.box5__img,
+.box6__img,.box7__img,.box8__img,.box9__img,.box10__img,.box11__img,.header__content__part2__button,.header__content__part2__button button,.modal__tel,.madal__tel__button,
+.madal__tel__button__tel,.madal__tel__button__tel__input,.modal_tel,.modal__button,.header__content__part2__part2__text h4,
+.header__content__part2__part2__input,.submit,.header__content__part2__part2__img img,.section1__content,
+.section2__text1:before,.footer__text1:before,.section1__text1:before,.section2__text1:after,.footer__text1:after,
+.section1__text1:after,.section2__img1,
+.section2__img2,.section3,.section4__content,#close
+{
+	position: absolute;
+}
+
+.section1__box1,.section1__box2,.section1__box3,.section1__box4,.section1__box5,.section1__box6,
+.section1__box7,.section1__box8,.section1__box9,.section1__box10,.section1__box11{
+	position: relative;
+	width: 234px;
+	height: 194px;
+	background: #FFFFFF;
+	box-shadow: 0px 0px 10px #000000;
+	border-radius: 10px;
+	margin: 39px;
+	margin-top:77px;
+}
+
+.section1__box1 h3,.section1__box2 h3,.section1__box3 h3,.section1__box4 h3,.section1__box5 h3,
+.section1__box6 h3,.section1__box7 h3,.section1__box8 h3,.section1__box9 h3,
+.section1__box10 h3,.section1__box11 h3{
+	position: absolute;
+	width: 225px;
+	height: 36px;
+	font-weight: 500;
+	font-size: 25px;
+	line-height: 117.69%;
+	text-align: center;
+	letter-spacing: 0.01em;
+	color: #702C06;
+	margin: 12px 0 0;
+}
+
+.header__content__part2__button button,#close,.madal__tel__button__tel__input,.modal_tel,.username,.telefon,.email,
+.submit
+{
+	border: none;
+ 	outline: none;
+}
+
+@media all and (max-width: 767px){
+	.section1__box1,.section1__box2,.section1__box3,.section1__box4,.section1__box5,.section1__box6,
+.section1__box7,.section1__box8,.section1__box9,.section1__box10,.section1__box11{
+    width: 101px;
+    height: 94px;
+    margin: 25px;
+    margin-top: 24px;
+}
+
+.section1__box1 h3,.section1__box2 h3,.section1__box3 h3,.section1__box4 h3,.section1__box5 h3,
+.section1__box6 h3,.section1__box7 h3,.section1__box8 h3,.section1__box9 h3,
+.section1__box10 h3,.section1__box11 h3{
+	width: 100px;
+	height: 21px;
+	font-size: 14px;
+	line-height: 117.69%;
+	margin: 6px 0 0;
+}
+}
+
+
+
