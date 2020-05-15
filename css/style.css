@@ -597,8 +597,9 @@ footer{
 	}
 	
 	.header__content__part1__part2 {
-			padding: 0 38px;
+		padding: 0 38px;
 	}	
+
 	.header__content__part1__part2 h1{
 		font-size: 14px;
 		line-height: 13px;
@@ -1048,5 +1049,137 @@ footer{
 
 	.footer__img__text__mail{
 		margin-top: 15px;
+	}
+}
+
+@media(max-width: 1200px) {
+   		.header__content__part1__part2{
+		width: 722px;
+		height: 140px;
+		left: 330px;
+		top: 23px;
+		padding: 0 34px;
+	}
+
+	
+	.header__content__part1__part3{
+		left: 156px;
+	}
+
+	.header__content__fgure2{
+		margin-left: 1039px;
+	}
+
+	.header__contnet__part2{
+		margin: 205px 80px 0; 
+	}
+
+	.header__content__part2__part2__input{
+		left: 812px;
+	}
+
+	.header__content__part2__part2__text h4{
+		left: 812px;
+	}
+
+	.section1__box1, .section1__box2, .section1__box3,
+	 .section1__box4, 
+	.section1__box5, .section1__box6, 
+	.section1__box7, .section1__box8, .section1__box9,
+	 .section1__box10, .section1__box11{
+	 	margin-top: 5px;
+	 }
+
+	 .section2__content__text p {
+    	width: 993px;
+    }
+
+    .section2__img2 {
+    	left: 1049px;
+	}
+
+	.section3__text p {
+    	width: 531px;
+    }
+}
+
+@media(max-width: 900px) {
+		.header__content__part1__part2 {
+   	 	width: 509px;
+    	height: 128px;
+    	left:232px;
+    }
+
+    .header__content__part1__part2 h1 {
+    font-size: 31px;
+	}
+
+	.header__content__part1__part3 {
+    	width: 677px;
+    	top: 146px;
+    }
+    .header__content__fgure2 {
+    margin-left: 740px;
+
+	}
+
+	.header__content__part2__figcaption a {
+    font-size: 27px;
+	}
+
+	.header__content__part2__figcaption {
+    width: 325px;
+	}
+
+	.header__content__part2__button {
+    	left: 85px;
+    }
+
+    .header__content__part2__part2__input {
+    left: 514px;
+	}
+
+	.header__content__part2__part2__text h4 {
+    	left: 616px;
+	}
+
+	.section1{
+  		min-height: 2082px;	
+	}
+
+	.section1__content{
+		height:  2082px;	
+	}
+
+	.section2__content__text p {
+    	width: 639px;
+	}
+
+	.section2 {
+		height: 700px;
+	}
+
+	.section2__img2 {
+    left: 748px;
+	}
+
+	.section3__text {
+    margin: 85px 0px;
+	}
+
+	.section3__text p {
+    width: 357px;
+	}
+
+	.section4__img {
+    width: 205px;
+    height: 190px;
+	}
+	.footer__img {
+    margin: 43px 1px 30px;
+	}
+
+	.footer__img img{
+		object-fit: contain;
 	}
 }
