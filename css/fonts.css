@@ -85,3 +85,18 @@
 
 
 
+<select name="Выберите бренд" id="">
+            				<optgroup label="Выберите бренд">
+                				<option value="">1</option>
+                				<option value="">2</option>
+                				<option value="">3</option>
+           					 </optgroup>
+           					 	<label for="username"></label>
+ 							<input class="username" type="username" id="username" name="username" placeholder="Введите ваше имя" />
+  						<label for="tel"></label>
+  							<input class="telefon" type="text" id="tel" name="phone" placeholder="Ввдете телефон" pattern="2-[0-9]{3}-[0-9]{3}" required / >
+  						<label for="Выберите бренд"></label>
+  							<input class="brend" type="Выберите бренд" id="Выберите бренд" name="Выберите бренд" placeholder="Выберите бренд" / >
+  						<label for="Модель устройства"></label>
+  							<input class="model" type="Модель устройства" id="Модель устройства" name="Модель устройства" placeholder="Модель устройства" / >
+					</form>
